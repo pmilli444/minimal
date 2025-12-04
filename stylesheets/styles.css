@@ -112,6 +112,10 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+.email {
+  margin-top: 20px;  /* espace au-dessus */
+}
+
 header ul {
   list-style:none;
   height:40px;
