@@ -100,7 +100,7 @@ th {
 }
 
 img {
-  max-width:100%;
+  max-width:80%;
 }
 
 header {
@@ -268,9 +268,4 @@ footer {
     color:#444;
   }
 }
-
-img {
-  width: 120px;
-  height: auto;
-  }
 }
