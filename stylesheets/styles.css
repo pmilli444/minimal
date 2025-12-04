@@ -268,3 +268,8 @@ footer {
     color:#444;
   }
 }
+
+img {
+  width: 120px;
+  height: auto;
+}
