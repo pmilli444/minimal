@@ -38,11 +38,12 @@ h3, h4, h5, h6 {
 
 a {
   color:#b834af;
-  text-decoration:underline;
+  text-decoration:none;
 }
 
 a:hover {
   color:#a21a80;
+  text-decoration:underline;
 }
 
 a small {
