@@ -280,35 +280,5 @@ footer {
     font-size:12pt;
     color:#444;
   }
-  .menu-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 30px;
-  cursor: pointer;
-  z-index: 1000;
-}
-
-#menu {
-  position: fixed;
-  top: 60px;
-  right: 20px;
-  background: white;
-  border: 1px solid #ccc;
-  padding: 10px;
-  display: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-
-#menu a {
-  display: block;
-  padding: 5px 10px;
-  text-decoration: none;
-  color: black;
-}
-
-#menu a:hover {
-  background: #f0f0f0;
-}
 }
 }
