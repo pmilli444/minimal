@@ -266,5 +266,19 @@
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+
+          <script>
+        document.querySelectorAll('nav a').forEach(function(lien) {
+          lien.addEventListener('click', function(e) {
+            e.preventDefault();
+            var cible = document.querySelector(this.getAttribute('href'));
+            if (cible) {
+              cible.scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
+      </script>
+
+    
   </body>
 </html>
