@@ -43,6 +43,7 @@ h2 {
   font-family: Garamond, "EB Garamond", serif;
   color: #393939;
   font-weight: bold;
+  font-variant: small-caps;
 }
 
 h3, h4, h5, h6 {
