@@ -207,11 +207,6 @@ hr {
   margin:0 0 20px;
 }
 
-.gras {
-  border: none;
-  border-top: 1px solid #000; /* épaisseur et couleur */
-}
-
 footer {
   width:270px;
   float:left;
