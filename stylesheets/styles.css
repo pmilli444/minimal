@@ -1,9 +1,9 @@
 body {
   background-color: #ffffff;
-  padding:50px;
-  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#000000;
-  font-weight:400;
+  padding: 50px;
+  font: 14px/1.5 "Times New Roman", Times, serif;
+  color: #000000;
+  font-weight: 400;
 }
 
 nav {
@@ -13,6 +13,7 @@ nav {
 }
 
 nav a {
+  font-family: Garamond, "EB Garamond", serif;
   text-decoration: none;
   color: #000000;
   font-weight: bold;
@@ -39,8 +40,8 @@ h1 {
 }
 
 h2 {
-  color:#393939;
-  font-weight: 500;
+  font-family: Garamond, "EB Garamond", serif;
+  color: #393939;
   font-weight: bold;
 }
 
