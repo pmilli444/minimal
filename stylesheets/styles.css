@@ -31,10 +31,6 @@ h2 {
   font-weight: bold;
 }
 
-h2:first-of-type {
-  color: #5a4a8a;
-}
-
 h3, h4, h5, h6 {
   color:#494949;
   font-weight: 500;
