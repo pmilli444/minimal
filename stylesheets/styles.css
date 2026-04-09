@@ -259,9 +259,9 @@ form button:hover {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
+    border:0;
+    background:#000000;
+    height:1px;
     margin:0 0 20px;
   }
 
