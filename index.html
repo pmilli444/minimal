@@ -267,27 +267,30 @@
     </div>
     <script src="javascripts/scale.fix.js"></script>
 
-          <script>
-        document.querySelectorAll('nav a').forEach(function(lien) {
-          lien.addEventListener('click', function(e) {
-            e.preventDefault();
-            var cible = document.querySelector(this.getAttribute('href'));
-            if (cible) {
-              cible.scrollIntoView({ behavior: 'smooth' });
-            }
-          });
-        });
+         <script>
+  document.addEventListener('DOMContentLoaded', function() {
 
-            var bouton = document.getElementById('retour-haut');
-window.addEventListener('scroll', function() {
-  if (window.scrollY > 300) {
-    bouton.style.display = 'block';
-  } else {
-    bouton.style.display = 'none';
-  }
-});
-            
-      </script>
+    document.querySelectorAll('nav a').forEach(function(lien) {
+      lien.addEventListener('click', function(e) {
+        e.preventDefault();
+        var cible = document.querySelector(this.getAttribute('href'));
+        if (cible) {
+          cible.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    var bouton = document.getElementById('retour-haut');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) {
+        bouton.style.display = 'block';
+      } else {
+        bouton.style.display = 'none';
+      }
+    });
+
+  });
+</script>
     
   <button id="retour-haut" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
     
