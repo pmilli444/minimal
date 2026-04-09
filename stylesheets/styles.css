@@ -335,6 +335,21 @@ form button:hover {
   section {
     border: none;
   }
+
+  header {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  header img {
+    flex-shrink: 0;
+  }
+
+  header nav {
+    margin-top: 0;
+  }
+}
 }
 }
 }
