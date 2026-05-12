@@ -56,36 +56,28 @@
 </nav>
          
       </header>
-      
+
+         <h2 id="contact">Contact</h2>
+
+          <form action="https://formspree.io/f/xlgoknkw" method="POST">
+            <p>
+              <label for="nom">Nom</label><br>
+              <input type="text" id="nom" name="nom" required>
+            </p>
+            <p>
+              <label for="email">Email</label><br>
+              <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+              <label for="message">Message</label><br>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </p>
+            <p>
+              <button type="submit">Envoyer</button>
+            </p>
+          </form>
      
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-
-         <script>
-  document.addEventListener('DOMContentLoaded', function() {
-
-    document.querySelectorAll('nav a').forEach(function(lien) {
-      lien.addEventListener('click', function(e) {
-        e.preventDefault();
-        var cible = document.querySelector(this.getAttribute('href'));
-        if (cible) {
-          cible.scrollIntoView({ behavior: 'smooth' });
-        }
-      });
-    });
-
-    var bouton = document.getElementById('retour-haut');
-    window.addEventListener('scroll', function() {
-      if (window.scrollY > 300) {
-        bouton.style.display = 'block';
-      } else {
-        bouton.style.display = 'none';
-      }
-    });
-
-  });
-</script>
-    
+    </div>  
   
   </body>
 </html>
