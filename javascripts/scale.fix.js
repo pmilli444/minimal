@@ -15,41 +15,11 @@ function gestureStart() {
     }
   }
 }
-
-/* --- Ouverture des liens externes dans un nouvel onglet --- */
+/* --- Ouverture des liens dans un nouvel onglet --- */
 document.addEventListener("DOMContentLoaded", function () {
   var links = document.getElementsByTagName("a");
   for (var j = 0; j < links.length; j++) {
-    var href = links[j].getAttribute("href");
-    // On exclut les ancres internes et les liens du menu
-    if (href && !href.startsWith("#") && !href.startsWith("/")) {
-      links[j].setAttribute("target", "_blank");
-      links[j].setAttribute("rel", "noopener noreferrer");
-    }
-  }
-});
-
-/* --- Défilement fluide pour les ancres internes --- */
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('nav a[href^="#"]').forEach(function(lien) {
-    lien.addEventListener('click', function(e) {
-      e.preventDefault();
-      var cible = document.querySelector(this.getAttribute('href'));
-      if (cible) {
-        cible.scrollIntoView({ behavior: 'smooth' });
-      }
-    });
-  });
-
-  /* --- Bouton retour en haut --- */
-  var bouton = document.getElementById('retour-haut');
-  if (bouton) {
-    window.addEventListener('scroll', function() {
-      if (window.scrollY > 300) {
-        bouton.style.display = 'block';
-      } else {
-        bouton.style.display = 'none';
-      }
-    });
+    links[j].setAttribute("target", "_blank");
+    links[j].setAttribute("rel", "noopener noreferrer");
   }
 });
