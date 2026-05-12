@@ -192,6 +192,11 @@ header ul a strong {
   color:#222;
 }
 
+header img {
+  display: block;
+  margin-bottom: 15px;
+}
+
 section {
   width:620px;
   float:right;
