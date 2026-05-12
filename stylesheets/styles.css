@@ -210,11 +210,12 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
-  margin-top: auto;
-  bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
+  clear: both;
+  width: 620px;
+  margin-left: 300px; /* aligne avec section */
+  padding-top: 40px;
+  font-size: 0.85em;
+  color: #444;
 }
 
 form input,
