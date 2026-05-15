@@ -28,6 +28,25 @@ nav a {
   font-weight: normal;
 }
 
+.sous-nav {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.sous-nav a {
+  display: block;
+  padding-left: 15px;
+  font-size: 0.9em;
+  font-weight: normal;
+  font-variant: normal;
+  margin-bottom: 4px;
+}
+
+.sous-nav a::before {
+  content: "– ";  /* tiret demi-cadratin */
+}
+
 
 /* TITRES */
 h1, h2, h3, h4, h5, h6 {
