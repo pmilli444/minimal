@@ -417,11 +417,5 @@ nav a {
     color: #444;
   }
 
-  @media screen and (max-width: 960px) {
-  section {
-    margin-left: 0;  /* annule le margin-left que vous avez ajouté */
-    float: none;
-    width: auto;
-  }
 }
 }
