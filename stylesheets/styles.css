@@ -231,10 +231,13 @@ form button:hover {
 @media screen and (max-width: 960px) {
   body {
     padding: 20px;
+    box-sizing: border-box;
   }
   .wrapper {
     width: auto;
+    max-width: 100%;
     margin: 0;
+    box-sizing: border-box;
   }
   header {
     position: static;
@@ -246,10 +249,14 @@ form button:hover {
     margin-left: 0 !important;
     float: none;
     width: auto;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   footer {
     margin-left: 0 !important;
     width: auto;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   img {
     max-width: 100%;
