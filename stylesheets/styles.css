@@ -89,8 +89,10 @@ a:hover small {
  
 /* WRAPPER */
 .wrapper {
-  width: 860px;
+  width: 100%;
+  max-width: 860px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
  
 /* BLOCKQUOTE */
