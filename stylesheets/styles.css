@@ -218,9 +218,9 @@ header img {
 }
 
 section {
-  width:620px;
-  float:right;
-  padding-bottom:50px;
+  margin-left: 310px;
+  float: none;
+  padding-bottom: 50px;
 }
 
 small {
