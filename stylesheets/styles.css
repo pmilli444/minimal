@@ -22,6 +22,12 @@ nav a {
   margin-bottom: 8px;
 }
 
+.sous-nav a {
+  padding-left: 15px;
+  font-size: 0.95em;
+  font-weight: normal;
+}
+
 
 /* TITRES */
 h1, h2, h3, h4, h5, h6 {
