@@ -22,28 +22,7 @@ nav a {
   margin-bottom: 8px;
 }
 
-.menu-accompagnement {
-  position: relative;
-}
 
-.sous-menu {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: #f4efe9;
-  padding: 10px;
-}
-
-.menu-accompagnement:hover .sous-menu {
-  display: block;
-}
-
-.sous-menu a {
-  display: block;
-  font-size: 0.95em;
-  margin-bottom: 5px;
-}
- 
 /* TITRES */
 h1, h2, h3, h4, h5, h6 {
   color: #000000;
