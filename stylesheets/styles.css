@@ -158,7 +158,19 @@ th {
  
 /* IMAGES */
 img {
+  max-width: 100%;
+}
+
+/* Images du header : taille contrainte par l'attribut width HTML */
+header img {
+  max-width: 110px;
+}
+
+/* Images dans le contenu éditorial uniquement */
+section img {
   max-width: 60%;
+  display: block;
+  margin: 20px auto;
 }
  
 /* DIVERS */
