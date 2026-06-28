@@ -6,3 +6,9 @@ window.addEventListener('scroll', function() {
     bouton.style.display = 'none';
   }
 });
+
+// Ouvre automatiquement tous les liens externes dans un nouvel onglet
+document.querySelectorAll('a[href^="http"]').forEach(function(lien) {
+  lien.setAttribute('target', '_blank');
+  lien.setAttribute('rel', 'noopener noreferrer');
+});
