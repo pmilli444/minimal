@@ -208,13 +208,16 @@ section {
 }
  
 /* FOOTER (desktop) */
-footer {
-  clear: both;
-  width: 620px;
-  margin-left: 300px;
-  padding-top: 40px;
-  font-size: 0.85em;
-  color: #444;
+.site-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  padding: 12px 0;
+  font-size: 14px;
+  background: transparent; /* ou une couleur si besoin */
 }
  
 /* FORMULAIRE */
