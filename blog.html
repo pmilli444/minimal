@@ -123,28 +123,10 @@ Carnets de réflexions et comptes rendus de livres autour des processus créateu
 
 </div>
 
-<button id="retour-haut"
-onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+<button id="retour-haut" type="button" aria-label="Retour en haut de page">
 ↑
 </button>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-
-  var bouton = document.getElementById('retour-haut');
-
-  window.addEventListener('scroll', function () {
-
-    if (window.scrollY > 300) {
-      bouton.style.display = 'block';
-    } else {
-      bouton.style.display = 'none';
-    }
-
-  });
-
-});
-</script>
 <script src="script.js"></script>
 </body>
 </html>

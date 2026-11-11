@@ -135,18 +135,9 @@ Robert Neuburger, <a href="https://www.payot-rivages.fr/payot/livre/ecrire-sa-m%
 
 </div>
 
-<button id="retour-haut" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+<button id="retour-haut" type="button" aria-label="Retour en haut de page">↑</button>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var bouton = document.getElementById('retour-haut');
-  window.addEventListener('scroll', function () {
-    bouton.style.display = window.scrollY > 300 ? 'block' : 'none';
-  });
-});
-</script>
-
-<script src="script.js"></script>
+<script src="../script.js"></script>
 
 </body>
 </html>
