@@ -323,3 +323,96 @@ form button:hover {
   }
 }
 
+
+
+/* ESSAI : présentation horizontale des cinq pages principales.
+   Les couleurs d'origine du site sont conservées. */
+body.menu-horizontal-test {
+  box-sizing: border-box;
+}
+.menu-horizontal-test *,
+.menu-horizontal-test *::before,
+.menu-horizontal-test *::after { box-sizing: border-box; }
+.menu-horizontal-test .wrapper { max-width: 850px; }
+.menu-horizontal-test header.site-header {
+  position: static;
+  float: none;
+  width: 100%;
+}
+.menu-horizontal-test .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.menu-horizontal-test .titre-principal {
+  margin: 0;
+  line-height: 1.2;
+}
+.menu-horizontal-test .titre-lien { color: inherit; text-decoration: none; }
+.menu-horizontal-test .fonction { margin-top: 9px; line-height: 1.3; }
+.menu-horizontal-test .header-portraits {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.menu-horizontal-test header .header-portraits img {
+  display: block;
+  width: 94px;
+  height: 94px;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+.menu-horizontal-test .navigation-principale {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 24px;
+  margin-top: 26px;
+  padding: 10px 14px;
+  background-color: #e8dfd8;
+  letter-spacing: .05em;
+  font-variant: small-caps;
+}
+.menu-horizontal-test .navigation-principale a {
+  display: inline-block;
+  margin: 0;
+  padding: 4px 3px;
+  font-family: "EB Garamond", Garamond, serif;
+  font-size: 1.05em;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+.menu-horizontal-test .navigation-principale a:hover,
+.menu-horizontal-test .navigation-principale a:focus-visible {
+  color: #a21a80;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.menu-horizontal-test .navigation-principale a.actif {
+  color: #b834af;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.menu-horizontal-test section {
+  margin-left: 0;
+  float: none;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  max-width: 100%;
+}
+@media screen and (max-width: 650px) {
+  .menu-horizontal-test .header-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  .menu-horizontal-test .titre-principal { text-align: center; }
+  .menu-horizontal-test .navigation-principale { gap: 6px 16px; }
+  .menu-horizontal-test .navigation-principale a { font-size: 1em; }
+  .menu-horizontal-test section { padding-top: 28px; }
+}
